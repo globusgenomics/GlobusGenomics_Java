@@ -5,9 +5,9 @@
 
 Edit the following paths accordingly:
 
-File dir = new File("/opt/galaxy/tools/");  /* Path to Globus Genomics tools */
-String localDockerContext = "/scratch/go/pooja043/github/GlobusGenomics_Tools/";  /* Path to store generated Dockerfiles */
-String mntLocation = "/mnt/galaxyTools/tools/";  /* Path to Binaries of Globus Genomics tools */
+     1) File dir = new File("/opt/galaxy/tools/");  - Path to Globus Genomics tools 
+     2) String localDockerContext = "/scratch/go/pooja043/github/GlobusGenomics_Tools/";  - Path to store generated Dockerfiles 
+     3) String mntLocation = "/mnt/galaxyTools/tools/";  - Path to Binaries of Globus Genomics tools 
 
 
 #Compile:
